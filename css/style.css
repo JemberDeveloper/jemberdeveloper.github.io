@@ -1,0 +1,59 @@
+body {
+	background: #FAFAFA;
+}
+form {
+	margin: auto;
+	max-width: 400px;
+	padding-top: 50px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input:hover {
+	border-color: #E91E63;
+}
+.logo {
+	width: 100%;
+}
+button, .btn-daftar {
+	color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button {
+    background-color: #3F51B5;
+}
+button:hover {
+    opacity: 0.5;
+}
+.btn-daftar{
+	background-color: #43A047;
+}
+.pembatas {
+	padding: 20px;
+}
+span.psw {
+    float: right;
+    color:#3F51B5;
+}
+.dftr {
+	text-align: center;
+	padding: 10px;
+}
+a:hover{
+	color: #E91E63;
+}
+.lbl {
+	font-size: 16px;
+	color:#212121;
+	padding-left: 5px;
+	font-family: Roboto, Arial;
+}
